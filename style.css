@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-family:'Source Sans Pro', 'Work Sans', 'Arial', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(#FFCC70, #C850C0, #4158D0);
+}
+
+.container{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 14%;
+    justify-items: center;
+    font-size: 20px;
+}
+
+.container button{
+    background: transparent;
+    border: solid 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#new-weather{
+    font-size: 15px;
+}
+
+.div-new{
+    height: 70px;
+}
